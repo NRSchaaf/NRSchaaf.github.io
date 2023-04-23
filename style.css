@@ -1,5 +1,5 @@
 .navbar-custom {
-    background-color: #545252;
+    background-color: #545252 !important;
 }
 
 body{
@@ -13,7 +13,7 @@ h1{
 }
 
 h3{
-    padding-top: 5% !important;
+    padding-top: 20% !important;
     font-family: sans-serif !important;
 }
 
