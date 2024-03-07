@@ -284,6 +284,16 @@
 			}
 		}
 	}
+	.image-container {
+		display: block;
+		width: 100%; /* Ensures the image takes full width of its container */
+		text-align: center; /* Centers the image horizontally */
+	}
+	
+	.manImg {
+		max-width: 100%; /* Ensures the image does not exceed its container's width */
+		height: auto; /* Allows the image to scale proportionally */
+	}
 
 /* Row */
 

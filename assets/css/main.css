@@ -281,6 +281,16 @@ input, select, textarea {
 				}
 
 		}
+		.image-container {
+			display: block;
+			width: 100%; /* Ensures the image takes full width of its container */
+			text-align: center; /* Centers the image horizontally */
+		}
+		
+		.manImg {
+			max-width: 100%; /* Ensures the image does not exceed its container's width */
+			height: auto; /* Allows the image to scale proportionally */
+		}
 
 /* Row */
 
@@ -1657,6 +1667,17 @@ input, select, textarea {
 				margin: 0 auto;
 				width: auto;
 			}
+		.image-with-padding {
+				display: block;
+				width: 100%; /* Ensures the image takes full width of its container */
+				text-align: center; /* Centers the image horizontally */
+		}
+			
+		.image-with-padding img {
+				max-width: 100%; /* Ensures the image does not exceed its container's width */
+				height: auto; /* Allows the image to scale proportionally */
+				margin-bottom: 10px; /* Add padding below the image */
+		}
 
 /* Button */
 
