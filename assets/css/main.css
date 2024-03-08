@@ -2627,7 +2627,7 @@ input, select, textarea {
 }
 
 #print-button button:hover {
-    background-color: #009688; /* Button background color on hover */
+    background-color: #aab6ac; /* Button background color on hover */
 }
 
 /* Hide the navigation bar options when printing */
@@ -2652,3 +2652,6 @@ input, select, textarea {
         display: none;
     }
 }
+
+
+
