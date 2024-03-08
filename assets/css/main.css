@@ -2468,7 +2468,7 @@ input, select, textarea {
 /* Contact Information Section */
 .contact-info {
 	text-align: center;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
   }
   
   .contact-info .name {
@@ -2483,7 +2483,7 @@ input, select, textarea {
   }
   
   .contact-info .links {
-	margin-top: 10px;
+	margin-top: 0px;
   }
   
   .contact-info .links a {
@@ -2531,20 +2531,35 @@ input, select, textarea {
 
   /* Experience Section */
   .experience {
-	margin-bottom: 20px;
-  }
-  
-  .experience .job-title {
+	margin-bottom: 0;
+}
+
+.experience .category {
 	font-weight: bold;
-  }
-  
-  .experience .location {
+}
+
+.experience .job-title {
+	font-weight: bold;
+}
+
+.experience .details {
+	display: flex;
+	justify-content: space-between;
+}
+
+.experience .location,
+.experience .date {
 	font-size: 1em;
-  }
+}
+
+.experience ul {
+	margin-bottom: 0; /* Add this line to remove the margin */
+}
+
   
   /* Projects Section */
   .projects {
-	margin-bottom: 20px;
+	margin-bottom: 0px;
   }
   
   .projects .project-name {
