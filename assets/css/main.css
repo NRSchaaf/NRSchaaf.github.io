@@ -2532,43 +2532,69 @@ input, select, textarea {
   /* Experience Section */
   .experience {
 	margin-bottom: 0;
+  }
+  
+  .experience .category {
+	font-weight: bold;
+  }
+  
+  .experience .job-details {
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+  }
+  
+  .experience .job-title {
+	font-weight: bold;
+  }
+  
+  .experience .details {
+	display: flex;
+	justify-content: space-between;
+  }
+  
+  .experience .location,
+  .experience .date {
+	font-size: 1em;
+  }
+  
+  .experience ul {
+	margin-bottom: 0;
+  }
+  
+  
+  /* Projects Section */
+  .projects {
+	margin-bottom: 0;
 }
 
-.experience .category {
+.projects .category {
 	font-weight: bold;
 }
 
-.experience .job-title {
+.projects .job-details {
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+}
+
+.projects .job-title {
 	font-weight: bold;
 }
 
-.experience .details {
+.projects .details {
 	display: flex;
 	justify-content: space-between;
 }
 
-.experience .location,
-.experience .date {
+.projects .date {
 	font-size: 1em;
 }
 
-.experience ul {
-	margin-bottom: 0; /* Add this line to remove the margin */
+.projects ul {
+	margin-bottom: 0;
 }
 
-  
-  /* Projects Section */
-  .projects {
-	margin-bottom: 0px;
-  }
-  
-  .projects .project-name {
-	font-weight: bold;
-  }
-  
-  .projects .date {
-	font-size: 1em;
-  }
   
   /* Section Divider */
   .section-divider {
