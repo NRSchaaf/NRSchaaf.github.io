@@ -2465,6 +2465,13 @@ input, select, textarea {
 
 	}
 
+/* Resume */
+
+/* Resume Container */
+.resume-container {
+	margin: 40px; /* Adjust the margin size as needed */
+  }
+
 /* Contact Information Section */
 .contact-info {
 	text-align: center;
