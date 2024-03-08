@@ -2608,3 +2608,47 @@ input, select, textarea {
 	border-top: 1px solid #000; /* Adjust color and thickness as needed */
 	margin: 0 0; /* Add space above and below the divider */
   }
+
+  /* Print Resume */
+
+#print-button {
+    float: right; /* Aligns the button to the right */
+    margin-right: 20px; /* Adds some space between the button and other nav items */
+}
+
+#print-button button {
+    background-color: #007bff; /* Button background color */
+    color: #fff; /* Button text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+#print-button button:hover {
+    background-color: #0056b3; /* Button background color on hover */
+}
+
+/* Hide the navigation bar options when printing */
+@media print {
+    #nav {
+        display: none;
+    }
+}
+
+/* Adjust content to fit one page when printing */
+@media print {
+    body {
+        font-size: 12px; /* Adjust font size */
+    }
+
+    /* Additional styles as needed */
+}
+
+/* Adjust layout when printing */
+@media print {
+    #nav ul {
+        display: none;
+    }
+}
