@@ -2121,9 +2121,10 @@ input, select, textarea {
 					border-top: solid 0.6em #282828;
 				}
 		#nav ul li.logo img {
-			max-width: 7%; /* Adjust the maximum width of the logo */
+			max-width: 10%; /* Adjust the maximum width of the logo */
 			height: auto; /* Maintain aspect ratio */
-			margin-left: 60%; /* Adjust the margin between logo and the first navbar item */
+			vertical-align: middle;
+			/*margin-left: ; /* Adjust the margin between logo and the first navbar item */
 		}
 		
 /* Articles */
