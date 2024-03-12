@@ -2080,6 +2080,7 @@ input, select, textarea {
 		#nav li {
 			display: inline-block;
 			padding-left: 0;
+			vertical-align: middle;
 		}
 
 		#nav a {
@@ -2622,6 +2623,7 @@ input, select, textarea {
 #print-button {
     float: right; /* Aligns the button to the right */
     margin-right: 20px; /* Adds some space between the button and other nav items */
+	vertical-align: middle;
 }
 
 #print-button button {
@@ -2632,6 +2634,7 @@ input, select, textarea {
     cursor: pointer;
     padding: 10px 20px;
     font-size: 16px;
+	
 }
 
 #print-button button:hover {
