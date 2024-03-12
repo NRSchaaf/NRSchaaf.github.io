@@ -2067,6 +2067,8 @@ input, select, textarea {
 		cursor: default;
 		height: 3.5em;
 		line-height: 3.5em;
+		display: flex; /* Add flexbox to the navbar */
+    	align-items: center; /* Align items vertically */
 	}
 
 		#nav ul {
@@ -2118,7 +2120,12 @@ input, select, textarea {
 					border-right: solid 0.75em transparent;
 					border-top: solid 0.6em #282828;
 				}
-
+		#nav ul li.logo img {
+			max-width: 7%; /* Adjust the maximum width of the logo */
+			height: auto; /* Maintain aspect ratio */
+			margin-left: 60%; /* Adjust the margin between logo and the first navbar item */
+		}
+		
 /* Articles */
 
 	body > article {
