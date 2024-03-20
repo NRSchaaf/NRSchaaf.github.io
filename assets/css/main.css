@@ -2664,5 +2664,22 @@ input, select, textarea {
     }
 }
 
+/* Justify paragraphs */
+#portfolio p {
+    text-align: left;
+}
 
+/* Reduce space between paragraphs */
+#portfolio p {
+    margin-bottom: 0.5em; /* Adjust the margin-bottom value as needed */
+}
 
+/* Center-align the header paragraph */
+#portfolio header .center {
+    text-align: center;
+}
+
+/* Center-align the footer paragraph */
+#portfolio footer .center {
+    text-align: center;
+}
