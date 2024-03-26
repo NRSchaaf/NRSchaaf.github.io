@@ -2683,3 +2683,9 @@ input, select, textarea {
 #portfolio footer .center {
     text-align: center;
 }
+
+#references {
+    text-align: center;
+    margin-top: 20px; /* Adjust margin-top as needed */
+	color: #aab6ac; /* Change text color to red, replace with desired color */
+}
