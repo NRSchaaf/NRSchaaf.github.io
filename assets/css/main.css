@@ -2540,7 +2540,7 @@ input, select, textarea {
 	text-align: right;
   }
  
-  .certifications_honors {
+  .certifications_honors .category {
 	font-weight: bold;
   }
   
