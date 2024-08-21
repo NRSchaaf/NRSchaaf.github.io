@@ -2541,7 +2541,7 @@ input, select, textarea {
   }
  
   .certifications_honors .category {
-	font-weight: bold;
+	/*font-weight: bold;*/
   }
   
   /* Technical Skills Section */
