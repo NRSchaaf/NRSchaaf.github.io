@@ -2540,6 +2540,9 @@ input, select, textarea {
 	text-align: right;
   }
  
+  .certifications_honors {
+	font-weight: bold;
+  }
   
   /* Technical Skills Section */
   .technical-skills {
