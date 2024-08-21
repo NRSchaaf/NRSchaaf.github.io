@@ -2524,6 +2524,22 @@ input, select, textarea {
   .education .category {
 	font-weight: bold;
   }
+
+  /* Certifications_Honors Section */
+.certifications_honors {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 0;
+  }
+  
+  .honor {
+	/*font-weight: bold; */
+  }
+  
+  .honor_date {
+	text-align: right;
+  }
+ 
   
   /* Technical Skills Section */
   .technical-skills {
