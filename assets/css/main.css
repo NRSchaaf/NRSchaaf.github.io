@@ -283,13 +283,16 @@ input, select, textarea {
 		}
 		.image-container {
 			display: block;
-			width: 100%; /* Ensures the image takes full width of its container */
-			text-align: center; /* Centers the image horizontally */
+    		width: 100%; /* Ensures the image takes full width of its container */
+    		height: 300px; /* Set a fixed height for the container */
+    		text-align: center; /* Centers the image horizontally */
+    		overflow: hidden; /* Ensures any overflow content is hidden */
 		}
 		
 		.manImg {
-			max-width: 100%; /* Ensures the image does not exceed its container's width */
-			height: auto; /* Allows the image to scale proportionally */
+			width: 100%; /* Ensures the image takes full width of its container */
+   			height: 100%; /* Ensures the image takes full height of its container */
+    		object-fit: cover; /* Maintains aspect ratio and covers the container */
 		}
 
 /* Row */
