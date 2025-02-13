@@ -1616,8 +1616,8 @@ input, select, textarea {
 	}
 	
 	.experience-tile img {
-		width: 100px; /* Adjust as needed */
-		height: 100px; /* Ensure consistent size */
+		width: 200px; /* Adjust as needed */
+		height: 200px; /* Ensure consistent size */
 		object-fit: cover;
 		border-radius: 5px;
 	}
