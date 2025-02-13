@@ -1522,19 +1522,22 @@ input, select, textarea {
 /* Project Tile Styling */
 
 	.projects-grid {
-		display: grid;
-		grid-template-columns: repeat(3, 1fr); /* 3 columns */
-		gap: 20px; /* Space between tiles */
-		justify-content: center;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		gap: 20px;
 	}
 
 	.project-tile {
-		background: #fff;
-		border-radius: 10px;
-		padding: 15px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
 		text-align: center;
-		box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-		transition: transform 0.2s ease-in-out;
+		padding: 20px;
+		background: #f9f9f9;
+		border-radius: 10px;
+		box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+		transition: transform 0.3s ease-in-out;
 	}
 
 	.project-tile:hover {
@@ -1543,39 +1546,31 @@ input, select, textarea {
 
 	.project-tile img {
 		width: 100%;
-		height: 150px; /* Fixed height for consistency */
-		object-fit: cover; /* Ensures images are cropped properly */
-		border-radius: 8px;
+		height: 200px;
+		object-fit: cover;
+		border-radius: 10px;
 	}
 
 	.project-tile h3 {
-		margin-top: 10px;
-		font-size: 1.2em;
+		margin-top: 15px;
+		font-size: 1.5em;
 		font-weight: bold;
+	}
+
+	.project-tile p {
+		font-size: 1em;
+		color: #555;
+		margin: 10px 0;
 	}
 
 	.project-tile a {
 		text-decoration: none;
-		color: #0077cc;
+		color: #007BFF;
+		font-weight: bold;
 	}
 
-	.project-tile p {
-		font-size: 0.9em;
-		color: #444;
-		margin-top: 5px;
-	}
-
-	/* Responsive: Change to 2 columns for medium screens, 1 column for small screens */
-	@media (max-width: 1024px) {
-		.projects-grid {
-			grid-template-columns: repeat(2, 1fr);
-		}
-	}
-
-	@media (max-width: 600px) {
-		.projects-grid {
-			grid-template-columns: repeat(1, 1fr);
-		}
+	.project-tile a:hover {
+		text-decoration: underline;
 	}
 
 /* Responsive Grid Layout */
