@@ -1531,10 +1531,15 @@ input, select, textarea {
 
 	.project-tile {
 		background: white;
-		border: 2px solid black;
 		padding: 15px;
 		text-align: center;
-		border-radius: 8px;
+		box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+		transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+	}
+
+	.project-tile:hover {
+		transform: translateY(-5px); /* Lift effect on hover */
+		box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
 	}
 
 	.project-tile img {
