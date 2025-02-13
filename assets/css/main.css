@@ -1645,6 +1645,17 @@ input, select, textarea {
 		color: #333;
 	}
 
+	.experience-text ul {
+		margin: 10px 0 0;
+		padding-left: 20px;
+	}
+	
+	.experience-text ul li {
+		font-size: 10px; /* Adjust font size as needed */
+		color: #444; /* Adjust font color as needed */
+		line-height: 1.5;
+	}
+
 /* Responsive Grid Layout */
 	.projects-grid {
 		display: grid;
