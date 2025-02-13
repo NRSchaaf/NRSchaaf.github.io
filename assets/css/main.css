@@ -1604,7 +1604,7 @@ input, select, textarea {
 		flex-direction: column;
 		gap: 20px;
 	}
-	
+
 	.experience-tile {
 		display: flex;
 		align-items: center;
@@ -1612,17 +1612,37 @@ input, select, textarea {
 		border-radius: 10px;
 		padding: 15px;
 		box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+		gap: 15px;
 	}
 	
-	.experience-image img {
-		max-width: 80px; /* Adjust size as needed */
-		height: auto;
+	.experience-tile img {
+		width: 100px; /* Adjust as needed */
+		height: 100px; /* Ensure consistent size */
+		object-fit: cover;
 		border-radius: 5px;
-		margin-right: 15px;
 	}
 	
 	.experience-text {
+		flex: 1; /* Make text take up remaining space */
 		text-align: left;
+	}
+	
+	.experience-text h3 {
+		margin: 0;
+		font-size: 18px;
+	}
+	
+	.experience-text h4 {
+		margin: 5px 0;
+		font-size: 14px;
+		font-weight: normal;
+		color: #666;
+	}
+	
+	.experience-text p {
+		margin: 5px 0 0;
+		font-size: 14px;
+		color: #333;
 	}
 
 /* Responsive Grid Layout */
