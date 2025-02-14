@@ -1589,7 +1589,7 @@ input, select, textarea {
 		display: flex;
 		flex-direction: column;
 		gap: 15px; /* Add vertical space between tiles */
-		justify-content: space-between; /* Distribute tiles evenly */
+		justify-content: flex-start; /* Ensure tiles start from the top */
 	}
 
 	.education-tile {
@@ -1600,7 +1600,6 @@ input, select, textarea {
 		background: #fff;
 		border-radius: 10px;
 		box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-		gap: 10px;
 	}
 
 	/* Image inside Education Tile */
@@ -1615,7 +1614,7 @@ input, select, textarea {
 		display: flex;
 		flex-direction: column;
 		gap: 15px; /* Add vertical space between tiles */
-		justify-content: space-between; /* Distribute tiles evenly */
+		justify-content: flex-start; /* Ensure tiles start from the top */
 	}
 
 	.experience-tile {
@@ -1625,7 +1624,7 @@ input, select, textarea {
 		border-radius: 10px;
 		padding: 15px;
 		box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-		gap: 10px;
+		gap: 15px;
 	}
 
 	/* Image inside Experience Tile */
@@ -1659,7 +1658,6 @@ input, select, textarea {
 		color: #006064;
 		line-height: 1.3;
 	}
-
 
 /* Responsive Grid Layout */
 	.projects-grid {
