@@ -1590,7 +1590,7 @@ input, select, textarea {
 	}
 
 	.education-tile {
-		transform: scale(0.75); /* Shrink tile size */
+		transform: scale(0.50); /* Shrink tile size */
 		transform-origin: center left; /* Keep alignment */
 		padding: 8px; /* Reduce padding */
 		text-align: left; /* Align text */
