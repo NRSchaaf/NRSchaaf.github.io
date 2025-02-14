@@ -1587,11 +1587,11 @@ input, select, textarea {
 	.education-column {
 		display: flex;
 		flex-direction: column;
-		gap: 5px; /* reduce gap between tiles */
+		gap: 20px; /* reduce gap between tiles */
 	}
 
 	.education-tile {
-		transform: scale(0.50); /* Shrink tile size */
+		transform: scale(0.65); /* Shrink tile size */
 		transform-origin: center left; /* Keep alignment */
 		padding: 8px; /* Reduce padding */
 		text-align: left; /* Align text */
