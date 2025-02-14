@@ -1596,6 +1596,12 @@ input, select, textarea {
 		text-align: left; /* Align text */
 		width: auto; /* Allow flexible width */
 	}
+
+	.education-tile img {
+		width: 100%; /* Image spans full width of tile */
+		height: auto; /* Maintains aspect ratio */
+		border-radius: 5px; /* Keeps rounded corners */
+	}
 	
 	.education-tile, .experience-tile {
 		background: #fff;
