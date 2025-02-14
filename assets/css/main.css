@@ -1581,12 +1581,12 @@ input, select, textarea {
 	.grid-container {
 		display: grid;
 		grid-template-columns: 1fr 2fr;
-		gap: 20px;
+		gap: 10px;
 	}
 	.education-column {
 		display: flex;
 		flex-direction: column;
-		gap: 20px;
+		gap: 20px; /* reduce gap between tiles */
 	}
 
 	.education-tile {
