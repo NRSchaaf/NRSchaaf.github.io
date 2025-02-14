@@ -1593,6 +1593,10 @@ input, select, textarea {
 	}
 
 	.education-tile {
+		display: flex;
+		flex-direction: column;
+		align-items: center; /* Horizontally center content */
+		justify-content: center; /* Vertically center content */
 		flex-grow: 1; /* Allow tiles to expand */
 		padding: 10px;
 		text-align: left;
