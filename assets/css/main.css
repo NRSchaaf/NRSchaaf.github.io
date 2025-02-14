@@ -2658,164 +2658,177 @@ input, select, textarea {
 
 /* Resume Container */
 .resume-container {
-	margin: 2%; /* Adjust the margin size as needed */
-  }
+    margin: 2%; /* Adjust the margin size as needed */
+}
 
 /* Contact Information Section */
 .contact-info {
-	text-align: center;
-	margin-bottom: 10px;
-  }
-  
-  .contact-info .name {
-	font-weight: bold;
-	font-size: 1.5em;
-  }
-  
-  .contact-info .location,
-  .contact-info .phone,
-  .contact-info .email {
-	font-size: 1em;
-  }
-  
-  .contact-info .links {
-	margin-top: 0px;
-  }
-  
-  .contact-info .links a {
-	margin-right: 10px;
-  }
-  
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.contact-info .name {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.contact-info .location,
+.contact-info .phone,
+.contact-info .email {
+    font-size: 1em;
+}
+
+.contact-info .links {
+    margin-top: 0px;
+}
+
+.contact-info .links a {
+    display: inline-block;
+    margin-right: 10px;
+}
+
 /* Education Section */
 .education {
-	display: flex;
-	justify-content: space-between;
-	margin-bottom: 0;
-  }
-  
-  .degree {
-	font-weight: bold;
-  }
-  
-  .graduation_date, .gpa {
-	text-align: right;
-  }
-  
-  .education .category {
-	font-weight: bold;
-  }
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
 
-  /* Certifications_Honors Section */
+.degree {
+    font-weight: bold;
+}
+
+.graduation_date,
+.gpa {
+    text-align: right;
+}
+
+.education .category {
+    font-weight: bold;
+}
+
+/* Certifications & Honors Section */
 .certifications_honors {
-	display: flex;
-	justify-content: space-between;
-	margin-bottom: 0;
-  }
-  
-  .honor {
-	/*font-weight: bold; */
-  }
-  
-  .honor_date {
-	text-align: right;
-  }
- 
-  .certifications_honors .category {
-	/*font-weight: bold;*/
-  }
-  
-  /* Technical Skills Section */
-  .technical-skills {
-	margin-bottom: 0;
-	}
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
 
-	.technical-skills .category {
-	font-weight: bold;
-	}
+.honor_date {
+    text-align: right;
+}
 
-	.technical-skills .type {
-	font-weight: bold;
-	display: inline-block; /* Ensure "Languages:" stays on the same line */
-	}
+.certifications_honors .category {
+    font-weight: bold;
+}
 
-	.technical-skills .skills {
-	display: inline-block; /* Ensure the list stays on the same line */
-	margin-left: 0.5em; /* Add some space between "Languages:" and the skills */
-	}
+/* Technical Skills Section */
+.technical-skills {
+    margin-bottom: 10px;
+}
 
+.technical-skills .category {
+    font-weight: bold;
+}
 
-  /* Experience Section */
-  .experience {
-	margin-bottom: 0;
-  }
-  
-  .experience .category {
-	font-weight: bold;
-  }
-  
-  .experience .job-details {
-	display: flex;
-	justify-content: space-between;
-	align-items: baseline;
-  }
-  
-  .experience .job-title {
-	font-weight: bold;
-  }
-  
-  .experience .details {
-	display: flex;
-	justify-content: space-between;
-  }
-  
-  .experience .location,
-  .experience .date {
-	font-size: 1em;
-  }
-  
-  .experience ul {
-	margin-bottom: 0;
-  }
-  
-  
-  /* Projects Section */
-  .projects {
-	margin-bottom: 0;
+.technical-skills .type {
+    font-weight: bold;
+    display: inline-block; /* Ensure "Languages:" stays on the same line */
+}
+
+.technical-skills .skills {
+    display: inline-block; /* Ensure the list stays on the same line */
+    margin-left: 0.5em; /* Add some space between "Languages:" and the skills */
+}
+
+/* Experience Section */
+.experience {
+    margin-bottom: 10px;
+}
+
+.experience .category {
+    font-weight: bold;
+}
+
+.experience .job-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.experience .job-title {
+    font-weight: bold;
+}
+
+.experience .details {
+    display: flex;
+    justify-content: space-between;
+}
+
+.experience .location,
+.experience .date {
+    font-size: 1em;
+}
+
+.experience ul {
+    margin-bottom: 0.5em;
+}
+
+/* Projects Section */
+.projects {
+    margin-bottom: 10px;
 }
 
 .projects .category {
-	font-weight: bold;
+    font-weight: bold;
 }
 
 .projects .job-details {
-	display: flex;
-	justify-content: space-between;
-	align-items: baseline;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 .projects .job-title {
-	font-weight: bold;
+    font-weight: bold;
 }
 
 .projects .details {
-	display: flex;
-	justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
 }
 
 .projects .date {
-	font-size: 1em;
+    font-size: 1em;
 }
 
 .projects ul {
-	margin-bottom: 0;
+    margin-bottom: 0.5em;
 }
 
-  
-  /* Section Divider */
-  .section-divider {
-	border-top: 1px solid #000; /* Adjust color and thickness as needed */
-	margin: 0 0; /* Add space above and below the divider */
-  }
+/* Section Divider */
+.section-divider {
+    border-top: 1px solid #000; /* Adjust color and thickness as needed */
+    margin: 10px 0; /* Adds space above and below the divider */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .education,
+    .certifications_honors,
+    .experience .job-details,
+    .projects .job-details {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .experience .details,
+    .projects .details {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
 
   /* Print Resume */
 
