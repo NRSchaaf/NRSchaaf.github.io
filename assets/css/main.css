@@ -1587,7 +1587,7 @@ input, select, textarea {
 	.education-column {
 		display: flex;
 		flex-direction: column;
-		gap: 10px; /* reduce gap between tiles */
+		gap: 5px; /* reduce gap between tiles */
 	}
 
 	.education-tile {
