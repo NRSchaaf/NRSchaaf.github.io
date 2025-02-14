@@ -1606,6 +1606,10 @@ input, select, textarea {
 		box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 	}
 
+	.education-tile * {
+		text-align: center; /* Apply text-align center to ensure text inside children are aligned properly */
+	}
+
 	/* Image inside Education Tile */
 	.education-tile img {
 		width: 100%;
