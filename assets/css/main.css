@@ -1588,6 +1588,20 @@ input, select, textarea {
 		flex-direction: column;
 		gap: 20px;
 	}
+
+	.education-tile {
+		transform: scale(0.75); /* Shrink tile size */
+		transform-origin: center left; /* Keep alignment */
+		padding: 8px; /* Reduce padding */
+		text-align: left; /* Align text */
+		width: auto; /* Allow flexible width */
+	}
+	
+	.education-tile img {
+		width: 60px; /* Reduce image size */
+		height: auto;
+	}
+
 	.education-tile, .experience-tile {
 		background: #fff;
 		border-radius: 10px;
@@ -1599,17 +1613,6 @@ input, select, textarea {
 		max-width: 100%;
 		border-radius: 5px;
 	}
-
-	.education-tile {
-		width: 75%; /* Reduce tile width */
-		padding: 10px; /* Reduce padding */
-		font-size: 0.75em; /* Scale down text */
-	}
-	
-	.education-tile img {
-		width: 75px; /* Reduce image size */
-		height: auto;
-	}	
 
 	.experience-column {
 		display: flex;
