@@ -1581,7 +1581,7 @@ input, select, textarea {
 	.grid-container {
 		display: grid;
 		grid-template-columns: 1fr 2fr;
-		gap: 10px;
+		gap: 20px;
 	}
 	.education-column {
 		display: flex;
@@ -1594,7 +1594,7 @@ input, select, textarea {
 		transform-origin: center left; /* Keep alignment */
 		padding: 8px; /* Reduce padding */
 		text-align: left; /* Align text */
-		width: auto; /* Allow flexible width */
+		width: 100%; /* Allow flexible width */
 	}
 
 	.education-tile img {
