@@ -1599,7 +1599,7 @@ input, select, textarea {
 		justify-content: center; /* Vertically center content */
 		flex-grow: 1; /* Allow tiles to expand */
 		padding: 10px;
-		text-align: left;
+		text-align: center;
 		font-weight: bold;
 		background: #fff;
 		border-radius: 10px;
