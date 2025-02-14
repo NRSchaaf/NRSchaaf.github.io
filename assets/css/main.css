@@ -1618,7 +1618,7 @@ input, select, textarea {
 	.experience-tile img {
 		width: 100px; /* Adjust as needed */
 		height: 100px; /* Ensure consistent size */
-		object-fit: cover;
+		object-fit: contain;
 		border-radius: 5px;
 	}
 	
