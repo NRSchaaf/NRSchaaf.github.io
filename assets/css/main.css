@@ -1595,6 +1595,7 @@ input, select, textarea {
 		padding: 8px; /* Reduce padding */
 		text-align: left; /* Align text */
 		width: 100%; /* Allow flexible width */
+		font-weight: bold;
 	}
 
 	.education-tile img {
