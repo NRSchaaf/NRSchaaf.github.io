@@ -2654,16 +2654,14 @@ input, select, textarea {
 
 	}
 
-/* Resume */
-
-	/* Resume Container */
+/* Resume Container */
 	.resume-container {
 		margin: 2%; /* Adjust the margin size as needed */
 	}
 
 	/* Contact Information Section */
 	.contact-info {
-		text-align: center;
+		text-align: left; /* Aligns all text to the left */
 		margin-bottom: 10px;
 	}
 
@@ -2687,129 +2685,53 @@ input, select, textarea {
 		margin-right: 10px;
 	}
 
-	/* Education Section */
-	.education {
-		display: flex;
-		justify-content: space-between;
-		margin: 10px 5%; /* Adds left and right margins */
-		padding: 10px;
-	}
-
-	.degree {
-		font-weight: bold;
-	}
-
-	.graduation_date,
-	.gpa {
-		text-align: right;
-	}
-
-	.education .category {
-		font-weight: bold;
-	}
-
-	/* Certifications & Honors Section */
-	.certifications_honors {
-		display: flex;
-		justify-content: space-between;
-		margin: 10px 5%; /* Adds left and right margins */
-		padding: 10px;
-	}
-
-	.honor_date {
-		text-align: right;
-	}
-
-	.certifications_honors .category {
-		font-weight: bold;
-	}
-
-	/* Technical Skills Section */
-	.technical-skills {
-		margin-bottom: 10px;
-		margin-left: 5%;
-		margin-right: 5%;
-	}
-
-	.technical-skills .category {
-		font-weight: bold;
-	}
-
-	.technical-skills .type {
-		font-weight: bold;
-		display: inline-block;
-	}
-
-	.technical-skills .skills {
-		display: inline-block;
-		margin-left: 0.5em;
-	}
-
-	/* Experience Section */
-	.experience {
-		margin: 10px 5%;
-		padding: 10px;
-	}
-
-	.experience .category {
-		font-weight: bold;
-	}
-
-	.experience .job-details {
-		display: flex;
-		justify-content: space-between;
-		align-items: baseline;
-	}
-
-	.experience .job-title {
-		font-weight: bold;
-	}
-
-	.experience .details {
-		display: flex;
-		justify-content: space-between;
-	}
-
-	.experience .location,
-	.experience .date {
-		font-size: 1em;
-	}
-
-	.experience ul {
-		margin-bottom: 0.5em;
-	}
-
-	/* Projects Section */
+	/* Sections General Style */
+	.education,
+	.certifications_honors,
+	.technical-skills,
+	.experience,
 	.projects {
-		margin: 10px 5%;
+		margin: 10px 0; /* Remove side margins to align left */
 		padding: 10px;
+		text-align: left; /* Ensures text is aligned to the left */
 	}
 
+	/* Remove Flexbox Justification */
+	.education,
+	.certifications_honors,
+	.experience,
+	.projects {
+		display: block; /* Change from flex to block for left alignment */
+	}
+
+	.technical-skills .category,
+	.experience .category,
 	.projects .category {
 		font-weight: bold;
 	}
 
+	/* Job Details and Lists */
+	.experience .job-details,
 	.projects .job-details {
-		display: flex;
-		justify-content: space-between;
-		align-items: baseline;
+		display: block; /* Prevents spreading across */
 	}
 
-	.projects .job-title {
-		font-weight: bold;
-	}
-
+	.experience .details,
 	.projects .details {
-		display: flex;
-		justify-content: space-between;
+		display: block;
 	}
 
+	.experience .location,
+	.experience .date,
 	.projects .date {
 		font-size: 1em;
 	}
 
+	/* Bullet Points */
+	.experience ul,
 	.projects ul {
 		margin-bottom: 0.5em;
+		padding-left: 20px; /* Ensures bullets align properly */
 	}
 
 	/* Section Divider */
@@ -2826,7 +2748,7 @@ input, select, textarea {
 		.projects {
 			flex-direction: column;
 			align-items: flex-start;
-			margin: 10px 3%;
+			margin: 10px 0;
 		}
 
 		.experience .details,
@@ -2838,28 +2760,29 @@ input, select, textarea {
 
 
 
-  /* Print Resume */
 
-#print-button {
-    float: right; /* Aligns the button to the right */
-    margin-right: 20px; /* Adds some space between the button and other nav items */
-	vertical-align: middle;
-}
+	/* Print Resume */
 
-#print-button button {
-    background-color: #009688; /* Button background color */
-    color: #fff; /* Button text color */
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    padding: 10px 20px;
-    font-size: 16px;
-	
-}
+	#print-button {
+		float: right; /* Aligns the button to the right */
+		margin-right: 20px; /* Adds some space between the button and other nav items */
+		vertical-align: middle;
+	}
 
-#print-button button:hover {
-    background-color: #aab6ac; /* Button background color on hover */
-}
+	#print-button button {
+		background-color: #009688; /* Button background color */
+		color: #fff; /* Button text color */
+		border: none;
+		border-radius: 5px;
+		cursor: pointer;
+		padding: 10px 20px;
+		font-size: 16px;
+		
+	}
+
+	#print-button button:hover {
+		background-color: #aab6ac; /* Button background color on hover */
+	}
 
 /* Hide the navigation bar options when printing */
 @media print {
