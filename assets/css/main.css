@@ -1597,11 +1597,6 @@ input, select, textarea {
 		width: auto; /* Allow flexible width */
 	}
 	
-	.education-tile img {
-		width: 60px; /* Reduce image size */
-		height: auto;
-	}
-
 	.education-tile, .experience-tile {
 		background: #fff;
 		border-radius: 10px;
