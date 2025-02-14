@@ -2074,9 +2074,10 @@ input, select, textarea {
 				
 				ul.social li a.pmi {
 					background-color: #1E4E79; /* PMI’s brand color */
-					background-image: url('images/pmi.png'); /* Path to PMI logo */
-					background-size: cover;
+					background-image: url('images/pmi.png'); /* Make sure this path is correct */
+					background-size: contain; /* Ensures the logo fits */
 					background-position: center;
+					background-repeat: no-repeat;
 				}
 
 				ul.social li a:hover {
