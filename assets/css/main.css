@@ -2653,6 +2653,16 @@ input, select, textarea {
 		margin: 2%; /* Adjust the margin size as needed */
 	}
 
+	/* Purpose */
+	.purpose-section .category {
+		text-align: left; /* Aligns the header to the left */
+		font-weight: bold; /* Ensures the header stands out */
+		margin-bottom: 5px; /* Adds spacing between header and text */
+	}
+	.purpose-section p {
+		text-align: left; /* Ensures the paragraph is also left-aligned */
+	}
+
 	/* Contact Information Section */
 	.contact-info {
 		text-align: center;
