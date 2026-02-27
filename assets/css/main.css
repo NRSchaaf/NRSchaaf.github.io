@@ -2635,7 +2635,7 @@ input, select, textarea {
 				#copyright li {
 					display: block;
 					margin: 1em 0 0 0;
-					padding: 0;
+					padding: 0; 
 					box-shadow: none;
 					border-left: 0;
 				}
@@ -2652,7 +2652,13 @@ input, select, textarea {
 	.resume-container {
 		margin: 2%; /* Adjust the margin size as needed */
 	}
-	
+
+	.resume-container {
+    width: 900px;          /* match your .container.medium */
+    margin: 0 auto;        /* center it */
+    padding: 20px;         /* optional but looks better */
+	}
+
 	/* Contact Information Section */
 	.contact-info {
 		text-align: center;
